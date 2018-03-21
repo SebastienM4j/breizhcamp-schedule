@@ -2,14 +2,31 @@ const request = require('request');
 const rx = require('rxjs');
 const moment = require('moment-timezone');
 
+moment.locale('fr')
+
+String.prototype.capitalize = function() {
+    return this.charAt(0).toUpperCase() + this.slice(1);
+}
+
 const eventStartMoment = event => moment(event.event_start, "YYYY-MM-DD'T'HH:mm:ss'Z'")
 const eventEndMoment = event => moment(event.event_end, "YYYY-MM-DD'T'HH:mm:ss'Z'")
 
-const bzhcampEventToMd = event => `# ${event.format} ${event.name} - ${event.venue}
-${eventStartMoment(event).utc().format('dddd DD/MM HH:mm')} - ${eventEndMoment(event).utc().format('HH:mm')}, by ${event.speakers}
+const bzhcampEventToMd = event => `### ${event.name}
+[${event.format}]
+**${eventStartMoment(event).utc().format('HH:mm').capitalize()} - ${eventEndMoment(event).utc().format('HH:mm')} @ ${event.venue}**
+${event.speakers}
 
 ${event.description}
 `;
+
+var previousDay = null;
+const bzhcampEventTitleToMd = event => {
+    var eventDay = moment(event.event_start, "YYYY-MM-DD'T'HH:mm:ss'Z'").utc().format('dddd').capitalize();
+    if(eventDay !== previousDay) {
+        console.log('# '+eventDay+'\n');
+        previousDay = eventDay;
+    }
+}
 
 const scheduleObservable = rx.Observable.create(observer => {
         const options = {
@@ -35,6 +52,7 @@ const scheduleObservable = rx.Observable.create(observer => {
     }))
     .flatMap(events => events)
     .filter(event => event.active === 'Y')
+    .do(bzhcampEventTitleToMd)
     .map(bzhcampEventToMd);
 
 scheduleObservable.subscribe(
