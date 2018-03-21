@@ -25,7 +25,14 @@ const scheduleObservable = rx.Observable.create(observer => {
             observer.complete();
         });
     })
-    .map(events => events.sort((eventA, eventB) => eventStartMoment(eventA).valueOf() - eventStartMoment(eventB).valueOf()))
+    .map(events => events.sort((eventA, eventB) => {
+        const dateComparison = eventStartMoment(eventA).valueOf() - eventStartMoment(eventB).valueOf();
+        if(dateComparison != 0) {
+            return dateComparison;
+        } else {
+            return eventA.venue.localeCompare(eventB.venue);
+        }
+    }))
     .flatMap(events => events)
     .filter(event => event.active === 'Y')
     .map(bzhcampEventToMd);
