@@ -1,12 +1,12 @@
 const request = require('request');
 const rx = require('rxjs');
-const moment = require('moment');
+const moment = require('moment-timezone');
 
 const eventStartMoment = event => moment(event.event_start, "YYYY-MM-DD'T'HH:mm:ss'Z'")
 const eventEndMoment = event => moment(event.event_end, "YYYY-MM-DD'T'HH:mm:ss'Z'")
 
 const bzhcampEventToMd = event => `# ${event.format} ${event.name} - ${event.venue}
-${eventStartMoment(event).format('dddd DD/MM HH:mm')} - ${eventEndMoment(event).format('HH:mm')}, by ${event.speakers}
+${eventStartMoment(event).utc().format('dddd DD/MM HH:mm')} - ${eventEndMoment(event).utc().format('HH:mm')}, by ${event.speakers}
 
 ${event.description}
 `;
