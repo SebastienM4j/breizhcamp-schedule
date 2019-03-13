@@ -1,29 +1,9 @@
 # Mercredi
 
-### Kubernetes meublé, disponible de suite
-[Université]
-**10:00 - 12:00 @ Amphi A**
-Aurélien Maury, Aymen Lamara
-
-Kubernetes, c’est LA plateforme de containers qui déboite. Pour tous ceux qui en déploie à la main, de nombreux toolkits existent, mais il manque toujours ces petits riens de finitions pour qu’ils partent en prod. On vous propose d’analyser le projet Kubespray, outillage d’installation de Kube en Ansible, et l’architecture qui va autour pour être à même de maintenir une plateforme complète en production, avec du monitoring, de la centralisation de logs, une gestion propre des utilisateurs, le chemin de déploiement pour les développeurs. Venez découvrir un cluster en mode _all-inclusive_.
-
-### Chérie, j'ai mis du fonctionnel dans mon Java !
-[Université]
-**10:00 - 12:00 @ Amphi B**
-Édouard Siha, Charles Dufour
-
-*    Chérie ! Je dois t’avouer quelque chose…
-*   Quoi ?
-*    J’ai mis du fonctionnel dans mon Java… Juste une fois ! C’était une exception !
-*    Mais pourquoi ? Ce n’est pas incompatible ?
-*    Bien sûr que non ! Ne t’inquiète pas, je garde mes fonctions et j’ai toujours la classe.
-*    Tant que mon héritage reste intact.
-* Rien ne changera ! Je vais tout t’expliquer, comment j’ai géré les erreurs, rendu mon code immutable et transformé mon code avec des fonctions pures. Tout ça avec la bibliothèque VAVR !
-
 ### Venez coder votre 1ère application Flutter !
 [Lab]
-**10:00 - 12:00 @ Amphi C**
-Pierre Tibulle, Romain Rastel, Horacio Gonzalez
+**10:00 - 12:00 @ Amphi A**
+Pierre Tibulle, Horacio Gonzalez, Romain Rastel
 
 Le 4 décembre dernier Google sortait enfin la 1.0 de Flutter, leur nouveau SDK open-source pour créer des application iOS et Android performantes et adaptées à l’OS. Sur le papier ça a l'air intéressant, mais est-ce que ça vaut la peine de s'y investir ? Pour nous la réponse est clairement oui !
 
@@ -38,10 +18,30 @@ PREREQUIS INDISPENSABLE, vous devez apporter un ordinateur (PC portable ou MacBo
 
 Si vous affichez l'application de base dans un émulateur c'est tout bon !!!
 
+### Chérie, j'ai mis du fonctionnel dans mon Java !
+[Université]
+**10:00 - 12:00 @ Amphi B**
+Édouard Siha, Charles Dufour
+
+*    Chérie ! Je dois t’avouer quelque chose…
+*   Quoi ?
+*    J’ai mis du fonctionnel dans mon Java… Juste une fois ! C’était une exception !
+*    Mais pourquoi ? Ce n’est pas incompatible ?
+*    Bien sûr que non ! Ne t’inquiète pas, je garde mes fonctions et j’ai toujours la classe.
+*    Tant que mon héritage reste intact.
+* Rien ne changera ! Je vais tout t’expliquer, comment j’ai géré les erreurs, rendu mon code immutable et transformé mon code avec des fonctions pures. Tout ça avec la bibliothèque VAVR !
+
+### Kubernetes meublé, disponible de suite
+[Université]
+**10:00 - 12:00 @ Amphi C**
+Aurélien Maury, Aymen Lamara
+
+Kubernetes, c’est LA plateforme de containers qui déboite. Pour tous ceux qui en déploie à la main, de nombreux toolkits existent, mais il manque toujours ces petits riens de finitions pour qu’ils partent en prod. On vous propose d’analyser le projet Kubespray, outillage d’installation de Kube en Ansible, et l’architecture qui va autour pour être à même de maintenir une plateforme complète en production, avec du monitoring, de la centralisation de logs, une gestion propre des utilisateurs, le chemin de déploiement pour les développeurs. Venez découvrir un cluster en mode _all-inclusive_.
+
 ### Le web décentralisé, comment ça marche ?
 [Conférence]
 **10:00 - 10:55 @ Amphi D**
-Cailly Antoine, 
+Antoine Cailly
 
 Aujourd’hui l’inquiétude monte devant l’emprise qu’ont certaines entreprises ou gouvernement sur notre utilisation d’internet.
 
@@ -54,26 +54,13 @@ Je parlerais également de quelques initiatives qui commencent à faire le buzz 
 ### Du fer à souder à la manette : une console de jeux à partir d'un microcontrolleur
 [Conférence]
 **11:05 - 12:00 @ Amphi D**
-Xavier Moulet, 
+Xavier Moulet
 
 Nous verrons comment réaliser une console de jeu avec un puce à partir d'un simple microcontrôleur à quelques euros avec 512k de flash et qq ko de RAM : le principe de codage sur un micro ARM32 bits, la toolchain, génération du signal vidéo TV/VGA, puis peu à peu comment (re)coder des jeux à l'ancienne NES ou en video, émuler des consoles et micro 8 bits (MO5 ! ZX Spectrum, ...), faire de la musique avec un chiptracker, et enfin un système de jeu où tout le jeu est codé dans une seule image ! Des exemples de programmation seront donnés à la fois sur la partie bas niveau et sur le développement de quelques jeux.
 
-### The Web is still on 🔥 F.I.R.E. 🔥 !!!
-[Université]
-**13:30 - 15:30 @ Amphi A**
-Noël Macé, 
-
-En 2015, le terme _Progressive Web Apps_ faisait son apparition, et avec lui une nouvelle approche des applications web et mobile. Rapidement, le terme F.I.R.E. (Fast Integrated Relaiable & Engaging) a été utilisé pour résumer et globaliser cette approche permettant d'accompagner les développeurs et décideurs dans la mise en place d'applications web modernes.
-
-Alors, prêt de quatre ans plus tard, qu'est ce qui a vraiment changé ?
-
-Durant ce workshop, nous verrons ensemble comment cette approche est succeptible de guider la réalisation de **toutes** nos web apps, notamment en se penchant sur les méthodologies les plus importantes qu'elle a aménée.
-
-Et bien entendu, nous verrons enfin comment les mettre en place (nottament grâce aux nombreux outils créés ces dernières années) et continuer à les respecter sur toute la durée de vie de nos projets.
-
 ### Haskell's Space Invaders Coding Dojo
 [Lab]
-**13:30 - 15:30 @ Amphi B**
+**13:30 - 15:30 @ Amphi A**
 Caroline GAUDREAU, Gaël Deest
 
 Niveau : Débutant (N'a jamais fait de programmation fonctionnelle)
@@ -84,17 +71,40 @@ La terre doit se préparer contre cette invasion ! Nous devons faire face à ces
 Toutefois, pour se défendre, il faut programmer nos vaisseaux en langage fonctionnel !! 
 Venez tester la programmation fonctionnelle pure avec Haskell en codant un jeu de space invaders, avec la librairie Gloss.
 
-### Craftsmanship  & Shoot-them-up avec LibGDX en Java
+### The Web is still on ? F.I.R.E. ? !!!
+[Université]
+**13:30 - 15:30 @ Amphi B**
+Noël Macé
+
+En 2015, le terme _Progressive Web Apps_ faisait son apparition, et avec lui une nouvelle approche des applications web et mobile. Rapidement, le terme F.I.R.E. (Fast Integrated Relaiable & Engaging) a été utilisé pour résumer et globaliser cette approche permettant d'accompagner les développeurs et décideurs dans la mise en place d'applications web modernes.
+
+Alors, prêt de quatre ans plus tard, qu'est ce qui a vraiment changé ?
+
+Durant ce workshop, nous verrons ensemble comment cette approche est succeptible de guider la réalisation de **toutes** nos web apps, notamment en se penchant sur les méthodologies les plus importantes qu'elle a aménée.
+
+Et bien entendu, nous verrons enfin comment les mettre en place (nottament grâce aux nombreux outils créés ces dernières années) et continuer à les respecter sur toute la durée de vie de nos projets.
+
+### Scuttlebutt - Construire un Facebook décentralisé
 [Conférence]
 **13:30 - 14:25 @ Amphi C**
-FRANCOIS-XAVIER ROBIN, 
+Antoine Cailly
 
-ou comment coder un Shoot Them Up old school inspiré du best sellers Xenon 2 des Bitmap Brothers pour améliorer ses pratiques de développement et produire du code noté "A" dans SonarQube, Codefactor et Codacy. Si tu aimes en vrac : les design patterns, le CleanCoding, les CodingChallenge, les gros pixels bien baveux et les musiques soundchip sur YM-2149, cette présentation est aussi faite pour toi
+En 2016, le scandale Cambridge Analytica a prouvé que les géants du Net comme Facebook pouvaient avoir une influence sur les élections présidentielles d'une grande puissance comme les États-Unis.
+Pas étonnant que de plus en plus de personnes les regardent d'un air inquiet, ils sont aussi puissants financièrement que certains états et disposent de données à rendre jaloux les services de renseignement.
+
+Seulement voilà, qu'avons-nous comme alternative ?
+Comment construire un réseau social gratuit comptant plusieurs millions d'utilisateurs sans monétiser les données pour payer son coût de fonctionnement ?
+
+Un réseau social de ce type existe, il s'appelle **Scuttlebutt** et il s'appuie sur les mêmes bases techniques que la Blockchain sans pour autant consommer l'équivalent de l'Autriche en énergie pour fonctionner ;-)
+
+Nous allons voir comment il fonctionne en repartant de l'essentiel, l'échange de messages, et en ajoutant progressivement les fonctionnalités que l'on retrouve dans les réseaux sociaux d'aujourd'hui. Vous serez peut être étonnés par sa simplicité et sa ressemblance avec nos interactions dans la vie réelle, ainsi que par les réponses apportées à certains problèmes comme la suppression des messages ou la liberté d'expression.
+
+Je vous montrerai également comment rejoindre ce réseau et vous présenterai quelques applications disponibles.
 
 ### Consul et la dynamique de l'infrastructure
 [Conférence]
 **13:30 - 14:25 @ Amphi D**
-Nicolas Ledez, 
+Nicolas Ledez
 
 On est tous plus ou moins devops, cloud, etc. On déploie notre infrastructure avec Puppet/Ansible/Chef/.... C'est dans du cloud avec des infrastructures à la demande ou pas. Le haproxy sort les machines du trafic quand elles sont KO.
 
@@ -107,7 +117,7 @@ Une fois reparti, vous aurez quelques idées pour rendre votre SI un peu plus fl
 ### Cypress, l’outil qui va vous faire aimer les tests End-to-End !
 [Conférence]
 **14:35 - 15:30 @ Amphi C**
-Rodolphe Bung, 
+Rodolphe Bung
 
 Sorti de sa bêta publique en septembre dernier, Cypress connait déjà un grand succès dans le domaine du test End-To-End (E2E). Il est d'ailleurs très bien classé dans le classement StateOfJs fraichement sorti dans la catégorie des [« autres outils de tests »](https://2018.stateofjs.com/testing/other-libraries) loin de devant Selenium, Protractor et Nightwatch. 
 
@@ -120,7 +130,7 @@ A l’issue de cette présentation, faire des tests E2E ne sera plus une souffra
 ### Comment j'ai hacké ma prise électrique
 [Conférence]
 **14:35 - 15:30 @ Amphi D**
-Florent Vuillemin, 
+Florent Vuillemin
 
 En 2015, je me suis penché sur l'étude d'une prise électrique connectée qui agit comme passerelle LORA : le porte-clé associé dialogue avec elle pour remonter sa position et des notifications de mouvement. 
 
@@ -129,7 +139,7 @@ En cherchant à comprendre son fonctionnement, j'ai rapidement trouvé un certai
 ### Découvrez pourquoi Elixir sera votre prochain langage!
 [Lab]
 **16:00 - 18:00 @ Amphi A**
-Nicolas Savois, 
+Nicolas Savois
 
 Elixir est un langage fantastique construit par des crafters avec le test comme axe central
 
@@ -146,7 +156,7 @@ les pré-requis au workshop sont la :
 ### Code moi un 'mouton de recherche'
 [Université]
 **16:00 - 18:00 @ Amphi B**
-Maxime Odye, null null
+Maxime Odye, Ludovic Boutros
 
 Le Petit Prince s'est perdu dans les méandres de l'immense champ de l'internet. Aide Max et Ludo à développer un mouton de recherche pour retrouver le Petit Prince.
 Au cours de cette aventure, tu développeras ton propre moteur de recherche.
@@ -168,7 +178,7 @@ Viens partager les aventures intergalactiques de Gautier et Nicolas dans l'unive
 ### LE SUPER POUVOIR DES "TYPE CLASSES"
 [Conférence]
 **16:00 - 16:55 @ Amphi D**
-Alexandre Delègue, 
+Alexandre Delègue
 
 Quand on parle de programmation fonctionnelle, on pense souvent aux lambdas mais rarement aux "type classes" et c'est bien dommage! 
 
@@ -179,7 +189,7 @@ Dans cette session, nous verrons comment utiliser les "type classes" dans des la
 ### Machine Learning pour tous avec Python
 [Conférence]
 **17:05 - 18:00 @ Amphi C**
-Robin Allesiardo, 
+Robin Allesiardo
 
 L’intelligence artificielle est un vaste domaine comprenant de nombreuses sous-disciplines, notamment l’apprentissage automatique (machine learning). L’apprentissage supervisé est la branche la plus connue du machine learning. Dans cette session, je présenterai tout d’abord l’apprentissage supervisé ainsi que les principales hypothèses assurant son fonctionnement, le tout, agrémenté d’exemples en Python sur le jeu de données Iris. Nous finirons ensuite un exemple par le code sur le jeu de données « Titanic », nous y aborderons le pré-traitement des données avec la bibliothèque pandas ainsi que l’entrainement de modèles prédictifs avec sklearn. A la fin de la session, les participants seront capables de mettre en oeuvre des algorithmes classiques de machine learning sur des problèmes simples.
  
@@ -192,7 +202,7 @@ Titanic : https://www.kaggle.com/c/titanic
 ### Lessons learned on Microsoft’s DevOps Journey
 [Conférence]
 **17:05 - 18:00 @ Amphi D**
-François Bouteruche, 
+François Bouteruche
 
 Microsoft a un patrimoine unique : elle a parcouru le chemin depuis un processus de développement en cycle en V traditionnel avec des livraisons tous les 2-3 ans vers une culture DevOps avec des livraisons toutes les 3 semaines. Dans cette conférence, nous mettrons en avant les points clés de cette transformation qui nous paraissent aujourd'hui évidents mais que nous avons appris en marchant :
 * Autonomie des équipes et alignement avec l'entreprise
@@ -208,25 +218,17 @@ Sur chacun de ces points, nous exposerons concrêtement ce qui a été mis en pl
 ### Blockchain et Smart Contract : de la théorie à la production
 [Conférence]
 **10:30 - 11:25 @ Amphi A**
-Mathieu Durand, 
+Mathieu Durand
 
 Blockchain, Ethereum, Smart-Contracts... on en entend souvent parler mais qu'est ce que ça donne réellement en production ?
 
 Cette conférence sera l'occasion de présenter notre REX de mise en production d'une application web basée sur l'utilisation de Smart Contract Ethereum.
 Après avoir présenté brièvement les concepts clés de Blockchain Ethereum et Smart Contract, nous présenterons notre retour d'expérience sur le développement d'une application **VueJs**/**Java** permettant l'échange de cryptomonnaie dite "tokenisée" (EC-20) via Smart Contract Ethereum.
 
-### Spring WebFlux par la pratique
-[Conférence]
-**10:30 - 11:25 @ Amphi B**
-Alan Menant, Benoit Travers
-
-Avec Spring 5 et Webflux, vous pouvez allier programmation fonctionnelle et non bloquante. Durant ce livecoding, nous allons vous présenter les notions introduites par Webflux et développerons de façon itérative une petite application en Kotlin 
-/ Spring Boot 2.
-
 ### L’accessibilité des applications mobiles android
 [Conférence]
-**10:30 - 11:25 @ Amphi C**
-Léna NDIAYE, 
+**10:30 - 11:25 @ Amphi B**
+Léna NDIAYE
 
 Quand on parle d’accessibilité, on pense automatiquement aux rampes d’escaliers, ou aux places de parking. Mais qu’en est-il de l’accessibilité des applications mobiles ?
 
@@ -237,10 +239,18 @@ Rappelez-vous de Gandalf qui se cognait partout dans la petite maison de Bilbon 
 Quand on conçoit / développe une application, cela ne demande pas plus d’effort de cibler un plus large public…encore faut-il savoir comment.
 Ce talk est justement pour tous ceux qui souhaitent en savoir plus à ce sujet, pour faciliter l'accès à l'information à une plus grande partie de la population.
 
+### Spring WebFlux par la pratique
+[Conférence]
+**10:30 - 11:25 @ Amphi C**
+Alan Menant, Benoit Travers
+
+Avec Spring 5 et Webflux, vous pouvez allier programmation fonctionnelle et non bloquante. Durant ce livecoding, nous allons vous présenter les notions introduites par Webflux et développerons de façon itérative une petite application en Kotlin 
+/ Spring Boot 2.
+
 ### Micro Frontend: le casse tête des micro services étendu au FrontEnd !
 [Conférence]
 **10:30 - 11:25 @ Amphi D**
-Audrey Neveu, 
+Audrey Neveu
 
 Les micro-services sont à la mode, et peut être avez vous déjà craqué et remplacé votre bon vieux monolithe côté back end par une ribambelle d’entre eux.
 
@@ -251,7 +261,7 @@ C’est le principe du micro frontend et c’est que nous avons fait cette anné
 ### Quand performance, scalabilité et robustesse bousculent vos habitudes de développement
 [Conférence]
 **11:35 - 12:30 @ Amphi A**
-Céline GILET, 
+Céline GILET
 
 Le projet sur lequel vous travaillez doit être capable d'intégrer des centaines de millions d'événements par jour.
 Face à cette volumétrie de traitements et de calculs, votre architecture doit tenir et auto-scaler pour encaisser les variations de charge.
@@ -259,21 +269,10 @@ Face à cette volumétrie de traitements et de calculs, votre architecture doit 
 Il s'agit ici de faire un retour d'expérience sur les points d'attention et les patterns à suivre dès le départ.
 Nous verrons comment découper et organiser vos traitements, comment décorréler votre modèle métier de votre modèle de stockage et comment définir une stratégie de tests dans un tel système.
 
-### Mon premier service en Rust
-[Conférence]
-**11:35 - 12:30 @ Amphi B**
-Francois Teychene, 
-
-Vous avez sûrement entendu parler de Rust, ce langage qui est à la mode mais qui ne semble pas vous concerner.  
-Parce que bon, un langage sans VM, ultra performant, c'est sympa, mais c'est difficile de voir comment l'utiliser pour des besoins "standards". Et à chaque fois on présente comment faire des outil en CLI ou comment la mémoire est efficacement gérée ...  
-Bref, on a l'impression que c'est un langage réservé aux ingénieurs systèmes et on le compare à du C.
-
-Et si je vous disais que l'on peut faire des webservices en Rust, de manière simple et élégante et que l'on garde tous les avantages classiques du langage (performance, safety, ...) ? C'est ce que je vous propose de découvrir dans cette session.
-
 ### Outils et bonnes pratiques de développement d'applications Android sécurisées
 [Conférence]
-**11:35 - 12:30 @ Amphi C**
-Alain Muller, 
+**11:35 - 12:30 @ Amphi B**
+Alain Muller
 
 Ne faites pas confiance à votre application : une fois déployée, tout peut arriver...
 Les sujets abordés, dans les grandes lignes : 
@@ -290,10 +289,21 @@ Les sujets abordés, dans les grandes lignes :
 
 *   Live hacking (éventuellement)
 
+### Mon premier service en Rust
+[Conférence]
+**11:35 - 12:30 @ Amphi C**
+Francois Teychene
+
+Vous avez sûrement entendu parler de Rust, ce langage qui est à la mode mais qui ne semble pas vous concerner.  
+Parce que bon, un langage sans VM, ultra performant, c'est sympa, mais c'est difficile de voir comment l'utiliser pour des besoins "standards". Et à chaque fois on présente comment faire des outil en CLI ou comment la mémoire est efficacement gérée ...  
+Bref, on a l'impression que c'est un langage réservé aux ingénieurs systèmes et on le compare à du C.
+
+Et si je vous disais que l'on peut faire des webservices en Rust, de manière simple et élégante et que l'on garde tous les avantages classiques du langage (performance, safety, ...) ? C'est ce que je vous propose de découvrir dans cette session.
+
 ### Vanilla JS 2019
 [Conférence]
 **11:35 - 12:30 @ Amphi D**
-Matthieu Lux, 
+Matthieu Lux
 
 Imaginez une application Web qui utiliserait toutes les nouvelles APIs des navigateurs en même temps. Ce n'est peut être pas le projet le plus raisonnable pour un besoin client mais pour de la veille, c'est passionnant ! Je vous propose un retour sur cette expérience un peu hors du commun.
 
@@ -318,21 +328,21 @@ Je vous propose de vous présenter les résultats d'un "fun project" qui, pour m
 ### .NET Core le renouveau du .NET Framework
 [Quickie]
 **12:45 - 13:00 @ Amphi B**
-Fabien PAITRY, 
+Fabien PAITRY
 
 La première version de .NET Core est sortie en 2016 avec pour objectif d'offrir une version multi-plateformes et open source du framework .NET de Microsoft.  A l'aube de la sortie de la version 3 nous ferons un tour d'horizon des principales forces et limitations de ce framework qui mérite à être connu au-delà du cercle des développeurs .NET
 
 ### Stop aux régressions visuelles de vos composants UI, avec Storybook et Loki
 [Quickie]
 **12:45 - 13:00 @ Amphi C**
-Jérémie Ledentu, 
+Jérémie Ledentu
 
 *"Aïe, j'ai cassé le rendu visuel de mes composants alors que j'avais 100% de couverture en tests unitaires !"* Pour éviter cela, nous verrons comment faire simplement du *Visual Regression Testing* en associant deux outils : Storybook et Loki.
 
 ### Feature Toggle et Microservices
 [Quickie]
 **12:45 - 13:00 @ Amphi D**
-Cédrick Lunven, 
+Cédrick Lunven
 
 Le Feature Toggle (capacité à activer ou désactiver des fonctionnalités à chaud) peut être très utile dans les architecture distribuées type Microservice. Déclarer un flag une fois, (ex:Monitoring) et tous les services peuvent y accéder. (fonctionnalités transverses).
 
@@ -341,7 +351,7 @@ FF4j est l'implémentation de référence de ce pattern pour la plateforme Java.
 ### Dr Gopher, Anatomie du Scheduler
 [Quickie]
 **13:05 - 13:20 @ Amphi B**
-Nicolas Lepage, 
+Nicolas Lepage
 
 Dr Gopher a décidé de comprendre comment fait le runtime Golang pour multiplexer des goroutines sur des threads système.
 
@@ -354,7 +364,7 @@ La programmation concurrentielle en Go permet au développeur de s’abstraire d
 ### UX : Les formulaires
 [Quickie]
 **13:05 - 13:20 @ Amphi C**
-Bruno Sabot, 
+Bruno Sabot
 
 Et si on parlait d'UX ?
 
@@ -365,16 +375,15 @@ mauvaises pratiques. On développe sans réfléchir, sans se poser la question d
 
 Dans ce talk, nous verrons donc les erreurs à ne pas faire et comment les corriger.
 
-### ⛳️ Votre API web passe-t-elle le contrôle technique ?
+### Flutter : Le futur du développement unifié ?
 [Conférence]
 **13:30 - 14:25 @ Amphi A**
-Francois-Guillaume Ribreau, 
+Romain Rastel
 
-Nous savons tous développer une API mais avons-nous bien intégré toutes les problématiques?
-
-Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?
-
-Durant ce talk, c'est plus de 30 points d'attentions rarement évoqué que je vous propose d'aborder, à la lumière de retours d'expériences provenant de tech-leader comme Uber, Stripe, Facebook et Google mais aussi d'entreprise française de la petite startup à la PME.
+**Flutter** est un SDK de Google permettant de créer de fantastiques **applications mobiles**, iOS et Android, en utilisant un code commun et en **un temps record**.
+Nous verrons dans ce talk ce qui a poussé cette solution à être développée.
+Nous détaillerons ensuite le fonctionnement de Flutter et ce qui en fait une plateforme de développement attractive.
+Pour terminer nous verrons quelle est la vision à long terme concernant Flutter et en quoi elle est intéressante.
 
 ### De Java 8 à Java 11 sur un gros projet : les pièges à éviter
 [Conférence]
@@ -388,20 +397,21 @@ Nous passerons en revue les différents points d’attention importants pour une
 
 Sans oublier l’incontournable question “quel fournisseur de JDK choisir ?” C’est désormais un point à ne pas sous-estimer, surtout sur les projets longs termes.
 
-### Flutter : Le futur du développement unifié ?
+### ⛳️ Votre API web passe-t-elle le contrôle technique ?
 [Conférence]
 **13:30 - 14:25 @ Amphi C**
-Romain Rastel, 
+Francois-Guillaume Ribreau
 
-**Flutter** est un SDK de Google permettant de créer de fantastiques **applications mobiles**, iOS et Android, en utilisant un code commun et en **un temps record**.
-Nous verrons dans ce talk ce qui a poussé cette solution à être développée.
-Nous détaillerons ensuite le fonctionnement de Flutter et ce qui en fait une plateforme de développement attractive.
-Pour terminer nous verrons quelle est la vision à long terme concernant Flutter et en quoi elle est intéressante.
+Nous savons tous développer une API mais avons-nous bien intégré toutes les problématiques?
+
+Son aspect organisationnel et humain, sa gouvernance, ses contraintes business et d'opérabilité (SLA, SLO, SLI), son release management, ses méthodes de requêtage, sa sécurité (ses performances, sa mise à l'échelle), ses différents types de test, sa documentation, son versioning (compatibilité, changelog), son monitoring — et bien plus encore — de cette API une fois en production ?
+
+Durant ce talk, c'est plus de 30 points d'attentions rarement évoqué que je vous propose d'aborder, à la lumière de retours d'expériences provenant de tech-leader comme Uber, Stripe, Facebook et Google mais aussi d'entreprise française de la petite startup à la PME.
 
 ### Plongée dans les CSP
 [Conférence]
 **13:30 - 14:25 @ Amphi D**
-Laurent Brunet, 
+Laurent Brunet
 
 Dans une application, la sécurité devient de plus en plus importante afin de mieux se prémunir d'éventuelles attaques XSS.
 
@@ -411,23 +421,10 @@ Un mécanisme de sécurité est disponible par une en-tête HTTP, **Content-Secu
 
 Nous allons voir comment peut-on mettre en place de façon progressive avec des rapports détaillés une politique de sécurité du contenu.
 
-### Architecture Hexagonale Level 2 : Comment bien écrire ses tests.
-[Conférence]
-**14:35 - 15:30 @ Amphi A**
-Julien Topçu, Jordan Nourry
-
-De plus en plus d’équipes adoptent l’architecture hexagonale comme structure de prédilection pour leurs applications métiers, mais peu d’entre elles savent réellement bien les tester. Et malheureusement lorsque l’on se plante sur ce point, la maintenance de notre architecture hexa devient un véritable calvaire!
-
-Lors de ce talk, nous allons aborder les [5 niveaux de tests préconisés](https://martinfowler.com/articles/microservice-testing/#conclusion-summary) pour les microservices adaptés à l'architecture héxagonale. Et en prime comment avoir une documentation drivée par les tests.
-
-Venez découvrir à côté de quoi vous êtes peut-être passés dans le développement de vos tests!
-
-Ceci est une live coding session en Java/Kotlin SpringBoot.
-
 ### Highway to Elm!
 [Conférence]
-**14:35 - 15:30 @ Amphi B**
-Jordane Grenat, 
+**14:35 - 15:30 @ Amphi A**
+Jordane Grenat
 
 Entre les problèmes de *null* et d'*undefined*, les cas d'erreur non traités, les régressions dans les dépendances npm et les refactoring hasardeux, il est compliqué de livrer sereinement du JavaScript en production !
 
@@ -437,10 +434,21 @@ Je vous propose de découvrir une alternative, Elm, dont la première promesse e
 
 Nous verrons comment ce langage spécialement pensé pour créer des applications web garantit des mises en production sereines et une expérience de développement agréable.
 
+### MVI : une architecture robuste et moderne pour vos applications mobiles
+[Conférence]
+**14:35 - 15:30 @ Amphi B**
+Simone Civetta, Arnaud Piroelle
+
+Oui, on le sait : vous en avez assez des talks d'architecture mobile. On vous comprend, vous avez dû en voir des tonnes : utiles, superflus, simples, alambiqués, certains même imprononçables et là vous n’en pouvez plus.
+
+Mais donnez-nous une chance : cette fois-ci nous voulons vous présenter une architecture que nous apprécions véritablement : simple, robuste, facilement testable et tirant profit des langages modernes comme Kotlin et Swift - Model-View-Intention. Inspirée de Redux, mais adaptée aux applications mobiles, MVI se sert d'immutabilité, flux de données unidirectionnel et binding pour faciliter débogage et testing et améliorer donc votre productivité. Applicable à Android et iOS, elle permet aussi de simplifier les échanges entre les équipes de développeurs d'applications mobiles natives.
+
+Nous vous présenterons les éléments clés de l'architecture, sa mise en place, ainsi que l'implémentation des cas d'usage les plus communs, issus d'applications que nous avons réellement développées.
+
 ### MADPIG: mesure et optimisation de la performance en Go
 [Conférence]
 **14:35 - 15:30 @ Amphi C**
-Valentin Deleplace, 
+Valentin Deleplace
 
 Vous aimez quand ça rame? Moi non plus.
 
@@ -466,7 +474,7 @@ Les noms de domaine et les DNS font parti des services primaires d'internet. De 
 ### "Numérique et environnement" ou "On aurait pu sauver les abeilles, on a préféré sortir un nouvel iPhone"
 [Conférence]
 **16:00 - 16:55 @ Amphi A**
-Sébastien Brault, 
+Sébastien Brault
 
 Le numérique fait-il partie du problème ou de la solution quand on parle de réchauffement climatique ? 
 
@@ -483,7 +491,7 @@ Et si malgré tout on décidait de s'en foutre ? 2 degrés en plus, c'est juste 
 ### Programmation par Traits sous l'influence de la gestion mémoire
 [Conférence]
 **16:00 - 16:55 @ Amphi B**
-Didier Plaindoux, 
+Didier Plaindoux
 
 On nous parle trop souvent de Rust en terme de gestion mémoire avec le borrowing et le lifetime mais quid de la conception logiciel dans un tel contexte ?
 
@@ -492,7 +500,7 @@ Je propose d'explorer le langage en ayant une approche objet très naive pour en
 ### The elevator problem
 [Conférence]
 **16:00 - 16:55 @ Amphi C**
-Xavier Van de Woestyne, 
+Xavier Van de Woestyne
 
 Dans l'espace de coworking où je travaille actuellement, l'ascenseur est 
 formellement idiot ! En effet, il n'optimise jamais son trajet, dès lors 
@@ -516,7 +524,7 @@ se servent de ce cas comme entretien technique !
 ### TLS 1.3 arrive!!! Et si on comprenait déjà ce que fait TLS 1.2 ?
 [Conférence]
 **16:00 - 16:55 @ Amphi D**
-Arnaud Locquet, 
+Arnaud Locquet
 
 “Quand on commande sur Internet, il faut que le cadenas soit affiché à côté de l'url…” C'est ce qu'on me disait lorsque je commençais à y faire des achats, il y a "quelques" années... #modem56K
 
@@ -524,21 +532,9 @@ Depuis, j'ai du mettre en place des échanges TLS, côté client et serveur. Nou
 
 Viens (re)découvrir TLS, dans un talk où je vais vulgariser les principes pour que toi aussi, tu sois enfin à l'aise avec.
 
-### Jenkins-X : toward a cloud-native Jenkins
-[Tool in Action]
-**17:05 - 17:30 @ Amphi A**
-Nicolas De Loof, 
-
-L'architecture de Jenkins date de 10 ans. C'est ce qui a permis de construire un écosystème gigantesque et de couvrir les besoins de tout le monde avec une flexibilité extrême. En assurant la compatibilité ascendante, Jenkins s'interdit-il d'évoluer pour embracer les paradigmes modernes ?
-On pourrait le croire, sauf que ... Jenkins-X!
-
-Jenkins-X est un grand coup de pied dans la fourmilière, un ouragan d'air frais qui vient décrasser Jenkins pour en faire un outil parfaitement adapté à l'époque des clusters Kubernetes. _Opinionated_, il rompt partiellement avec la vision du "_peux tout faire et même le reste_" chère à Jenkins, pour proposer une solution immédiatement utilisable. 
-Son succès est tel qu'il tire Jenkins vers le haut, en servant de pilote pour les efforts d'architecture "Cloud Native" qui ont lieu dans son ombre.
-Dans ce talk je vais vous présenter comment on modernise du code vieux de plus de 10 ans à grand coups de hâche.
-
 ### VS Code: mode collaboratif activé!
 [Tool in Action]
-**17:05 - 17:30 @ Amphi B**
+**17:05 - 17:30 @ Amphi A**
 Tiffany Souterre, Olivier Leplus
 
 Vous aimez VS Code car il est simple, intuitif et qu'il fait ce que vous lui demandez. 
@@ -548,17 +544,29 @@ Nous verrons dans ce talk tout ce qui fait de VS Code l'éditeur de code parfait
 
 ### Keycloak, le maître des clés
 [Tool in Action]
-**17:05 - 17:30 @ Amphi C**
-Jérôme Marchand, 
+**17:05 - 17:30 @ Amphi B**
+Jérôme Marchand
 
 Combien de fois avez-vous implémenté dans vos différentes applications : une page de login, avec mail de confirmation, changement de mot de passe, une gestion de rôles et de groupes ? et quand tout fonctionne, il faut "encore" ajouter le SSO, la fédération, le 2FA, le Impersonate, ....
 
 Découvrons ensemble, comment Keycloak propose ces fonctionnalités, et facilite l'intégration de l'authentification.
 
+### Jenkins-X : toward a cloud-native Jenkins
+[Tool in Action]
+**17:05 - 17:30 @ Amphi C**
+Nicolas De Loof
+
+L'architecture de Jenkins date de 10 ans. C'est ce qui a permis de construire un écosystème gigantesque et de couvrir les besoins de tout le monde avec une flexibilité extrême. En assurant la compatibilité ascendante, Jenkins s'interdit-il d'évoluer pour embracer les paradigmes modernes ?
+On pourrait le croire, sauf que ... Jenkins-X!
+
+Jenkins-X est un grand coup de pied dans la fourmilière, un ouragan d'air frais qui vient décrasser Jenkins pour en faire un outil parfaitement adapté à l'époque des clusters Kubernetes. _Opinionated_, il rompt partiellement avec la vision du "_peux tout faire et même le reste_" chère à Jenkins, pour proposer une solution immédiatement utilisable. 
+Son succès est tel qu'il tire Jenkins vers le haut, en servant de pilote pour les efforts d'architecture "Cloud Native" qui ont lieu dans son ombre.
+Dans ce talk je vais vous présenter comment on modernise du code vieux de plus de 10 ans à grand coups de hâche.
+
 ### Parcel.js : le bundler dont vous rêviez ;)
 [Tool in Action]
 **17:05 - 17:30 @ Amphi D**
-Mathieu ANCELIN, 
+Mathieu ANCELIN
 
 A l'époque, il n'y a pas si longtemps, mettre au point un build JS était une galère sans nom. On a tous sué à grosses goutes en essayant de comprendre ce qui n'allait pas avec les scripts Grunt ou Gulp. Il n'était pas beaucoup plus facile d'enchainer manuellement les appels des dizaines d'outils tels que browserify, minify, etc pour arriver au même résultat. Il était beaucoup trop facile de se perdre dans les dizaines (centaines ???) de lignes de code que représentaient les fichiers de build. Et puis les bundlers "modernes" sont arrivés. Rien de plus simple que créer un build avec Webpack en quelques lignes de configuration. Un nouveau type de ressource a gérer, pas de problème, il y a juste a configurer le plugin qu'il faut. Mais c'était encore trop :)
 
@@ -571,7 +579,7 @@ Dans cette présentation, nous verrons comment prendre en main Parcel, ses avant
 ### Things Gateway
 [Tool in Action]
 **17:35 - 18:00 @ Amphi A**
-Kalyan Dikshit, 
+Kalyan Dikshit
 
 Most IoT devices today use proprietary vertical technology stacks which are built around a central point of control and which don’t always talk to each other.When they do talk to each other it requires per-vendor integrations to connect those systems together. There are efforts to create standards, but the landscape is extremely complex and there’s still not yet a single dominant model or market leader.
 
@@ -588,24 +596,16 @@ The future of connected devices should be more like the open web. The future sho
 ### jq, JSON comme un pro
 [Tool in Action]
 **17:35 - 18:00 @ Amphi B**
-Sébastien LECACHEUR, 
+Sébastien LECACHEUR
 
 Le JSON est omniprésent dans nos environnements. Nous manipulons ce format de représentation à longueur de journée. Pour nous faciliter la tâche, nous pouvons utiliser l'utilitaire en ligne de commande nommé **./jq**.
 
 Prenons le temps d'explorer le monde fascinant de jq et de partager quelques astuces.
 
-### Minio, une nouvelle approche du stockage objet : promesses, enthousiasme et désillusions
-[Tool in Action]
-**17:35 - 18:00 @ Amphi C**
-Sébastien BLAISOT, 
-
-Retour d'expérience sur un test du logiciel de stockage objet Minio (https://minio.io/) permettant de monter un équivalent à amazon S3 partout (des des machines physiques, des VM ou dans des conteneurs), entre promesses, enthousiasme de la rencontre, et écueils lors de l'utilisation.
-Venez assister au déploiement en live d'un service de stockage objet en moins de 2 minutes.
-
 ### Git, yet another VCS ou bien plus que ça ?
 [Tool in Action]
-**17:35 - 18:00 @ Amphi D**
-Loïc Guibert, 
+**17:35 - 18:00 @ Amphi C**
+Loïc Guibert
 
 Pour vous _Git_ n'est qu'un logiciel de gestion de versions parmi tant d'autres ?  
 Votre rapport avec _Git_ se résume à `git commit`, `git push`, `git pull` et c'est marre ?
@@ -615,12 +615,20 @@ Alors vous êtes passés à côté de l'essence même de _Git_. Vous n'imaginez 
 Je vous propose d'aller plus loin dans l'utilisation de _Git_ et de prendre du recul sur vos pratiques afin d'en faire un de vous outils quotidiens dont vous ne pourrez plus vous passer !
 Votre workflow va gagner en maturité.
 
+### Minio, une nouvelle approche du stockage objet : promesses, enthousiasme et désillusions
+[Tool in Action]
+**17:35 - 18:00 @ Amphi D**
+Sébastien BLAISOT
+
+Retour d'expérience sur un test du logiciel de stockage objet Minio (https://minio.io/) permettant de monter un équivalent à amazon S3 partout (des des machines physiques, des VM ou dans des conteneurs), entre promesses, enthousiasme de la rencontre, et écueils lors de l'utilisation.
+Venez assister au déploiement en live d'un service de stockage objet en moins de 2 minutes.
+
 # Vendredi
 
 ### REX après 2 ans de PWA en production chez un client
 [Conférence]
 **10:30 - 11:25 @ Amphi A**
-Mickael FAUST, 
+Mickael FAUST
 
 Le but de ce talk est de partir d'un retour d’expérience sur la mise en place depuis 2 ans d'une PWA (Progressive Web App) dans le cadre d'une refonte complète du SI chez ENEDIS (pour les industriels et non linky).
 Le contexte projet a comme  particularité différentes contraintes comme la seule utilisation d'un navigateur et l'existence de situation où le réseau est en mode dégradé voire inexistant.
@@ -636,7 +644,7 @@ Bref, ici plutôt que de "prêcher" une technologie et/ou un framework, nous all
 ### The CI as a partner for test improvement suggestions
 [Conférence]
 **10:30 - 11:25 @ Amphi B**
-Caroline Landry, 
+Caroline Landry
 
 Le CI (Intégration Continue) exécute en continu les tests unitaires et d'intégration pour donner aux développeurs un retour d'information sur la qualité du code. Cependant, il fournit peu de rétroaction sur la qualité des cas de test eux-mêmes. Cet exposé présente  deux techniques automatiques qui fonctionnent dans le CI afin de suggérer les faiblesses et les améliorations possibles des cas de test.
 
@@ -645,50 +653,26 @@ La première technique est basée sur du test par mutation. Elle identifie les m
 ### "Bogged down in the slime, Busters ?  your python code can run fast !" (Performance en python: profiling et optimisations)
 [Conférence]
 **10:30 - 11:25 @ Amphi C**
-Pierre Rust, 
+Pierre Rust
 
 Python est LENT, tout le monde sait ça ... et pourtant il est utilisé dans des domaines très variés, y compris ceux où la performance compte : machine learning, calcul scientifique, analyse de données et services internet massifs ! Mais comment font-ils ?!
 Nous verrons comment identifier les  portions qui ralentissent réellement votre application, puis les différentes techniques, des plus simples aux plus avancées, pour accélérer votre code python. 
 **Keywords:** cProfile, yappi, timit, cython, numba, pypy, etc.
 
-### Scuttlebutt - Construire un Facebook décentralisé
+### De Java vers Kotlin, la migration du héron !
 [Conférence]
 **10:30 - 11:25 @ Amphi D**
-Cailly Antoine, 
+Guillaume Lours, Audrey Neveu
 
-En 2016, le scandale Cambridge Analytica a prouvé que les géants du Net comme Facebook pouvaient avoir une influence sur les élections présidentielles d'une grande puissance comme les États-Unis.
-Pas étonnant que de plus en plus de personnes les regardent d'un air inquiet, ils sont aussi puissants financièrement que certains états et disposent de données à rendre jaloux les services de renseignement.
+Kotlin is the new cool! Ok mais votre patron n’acceptera jamais que vous réécriviez votre application Java en Kotlin n’est ce pas ?     Eh bien bonne nouvelle, la migration est possible et elle est même beaucoup plus simple que vous ne pourriez l’imaginer ! 
 
-Seulement voilà, qu'avons-nous comme alternative ?
-Comment construire un réseau social gratuit comptant plusieurs millions d'utilisateurs sans monétiser les données pour payer son coût de fonctionnement ?
+Dans cette session nous vous expliquerons comment nous avons procédé pour migrer notre application existante en revenant sur les différentes étapes pour passer d’un langage à l’autre mais aussi les concepts de bases de Kotlin.
 
-Un réseau social de ce type existe, il s'appelle **Scuttlebutt** et il s'appuie sur les mêmes bases techniques que la Blockchain sans pour autant consommer l'équivalent de l'Autriche en énergie pour fonctionner ;-)
-
-Nous allons voir comment il fonctionne en repartant de l'essentiel, l'échange de messages, et en ajoutant progressivement les fonctionnalités que l'on retrouve dans les réseaux sociaux d'aujourd'hui. Vous serez peut être étonnés par sa simplicité et sa ressemblance avec nos interactions dans la vie réelle, ainsi que par les réponses apportées à certains problèmes comme la suppression des messages ou la liberté d'expression.
-
-Je vous montrerai également comment rejoindre ce réseau et vous présenterai quelques applications disponibles.
-
-### IoT et open source hardware pour la collecte de timeseries
-[Conférence]
-**11:35 - 12:30 @ Amphi A**
-Xavier MARIN, 
-
-Votre mission, si vous l'acceptez : collecter chez chaque client 500 métriques par seconde sur un réseau Modbus, stocker plusieurs jours de données localement, et pousser des métriques sous échantillonnées dans le cloud. Les contraintes incluent la remontée des contextes de défaut, l’envoi de commande sécurisée depuis le cloud, l’isolation des données entre clients, la connexion temps réel via websocket, la gestion des coupures de courant et d’internet. Le système tourne sur une PINE64, avec une base de donnée open source française !
-
-### Développeurs et agilité : la guerre est déclarée ?
-[Conférence]
-**11:35 - 12:30 @ Amphi B**
-Cécilia Bossard, Jean Paliès
-
-Quand on parle d'agilité aux développeurs, on constate différentes réactions. Il y a les enthousiastes, ceux qui s'en fichent, et ceux qui s'y opposent farouchement.
-
-En ce moment, on peut constater un accroissement des développeurs ne souhaitant plus entendre parler d'agilité.
-
-Pourquoi une telle scission ? La guerre est-elle ouvertement déclarée ou a-t-on un espoir de réconciliation ?
+Du build en passant par la génération automatique dans l’IDE et jusqu’aux tests, nous vous ferons un retour d'expérience complet de notre migration.
 
 ### Acteur, un modèle élégant pour le calcul concurrentiel et les systèmes distribués
 [Conférence]
-**11:35 - 12:30 @ Amphi C**
+**11:35 - 12:30 @ Amphi A**
 Alessio Coltellacci, Didier Plaindoux
 
 Avec l’avènement des architectures multi-cœurs, nous avons besoin de moyens pour les exploiter. Généralement, cela se fait à l'aide des threads natifs et de primitives de synchronisation qui conduisent à des problèmes difficiles à debug.
@@ -705,23 +689,41 @@ Nous verrons dans cette présentation:
 
 - comment avoir un système distribué tolérant aux pannes.
 
+### Développeurs et agilité : la guerre est déclarée ?
+[Conférence]
+**11:35 - 12:30 @ Amphi B**
+Cécilia Bossard, Jean Paliès
+
+Quand on parle d'agilité aux développeurs, on constate différentes réactions. Il y a les enthousiastes, ceux qui s'en fichent, et ceux qui s'y opposent farouchement.
+
+En ce moment, on peut constater un accroissement des développeurs ne souhaitant plus entendre parler d'agilité.
+
+Pourquoi une telle scission ? La guerre est-elle ouvertement déclarée ou a-t-on un espoir de réconciliation ?
+
+### IoT et open source hardware pour la collecte de timeseries
+[Conférence]
+**11:35 - 12:30 @ Amphi C**
+Xavier MARIN
+
+Votre mission, si vous l'acceptez : collecter chez chaque client 500 métriques par seconde sur un réseau Modbus, stocker plusieurs jours de données localement, et pousser des métriques sous échantillonnées dans le cloud. Les contraintes incluent la remontée des contextes de défaut, l’envoi de commande sécurisée depuis le cloud, l’isolation des données entre clients, la connexion temps réel via websocket, la gestion des coupures de courant et d’internet. Le système tourne sur une PINE64, avec une base de donnée open source française !
+
 ### Istio, le meilleur ami de votre cluster K8S ❤️
 [Conférence]
 **11:35 - 12:30 @ Amphi D**
-Kevin Davin, 
+Kevin Davin
 
-Dans un monde distribué, nous sommes confrontés à de nouveaux problèmes. Les notions de **circuit-breaker**, de **retry**, de **timeout**, de **blue-green deployment**, **A/B testing**, **pool-ejection**… viennent remplacer nos anciens problèmes de monolithe 🙁. 
+Dans un monde distribué, nous sommes confrontés à de nouveaux problèmes. Les notions de **circuit-breaker**, de **retry**, de **timeout**, de **blue-green deployment**, **A/B testing**, **pool-ejection**… viennent remplacer nos anciens problèmes de monolithe ?. 
 
-Istio ⛵ est là pour nous aider sur tous ces points... et même plus ! 🥰
+Istio ⛵ est là pour nous aider sur tous ces points... et même plus ! ?
 
-Nous ferons le tour  de l'outillage actuel (émanant de la stack Netflix principalement) dans un environnement micro-services et nous le comparerons avec ce que nous met à disposition Istio à T0 👍! 
+Nous ferons le tour  de l'outillage actuel (émanant de la stack Netflix principalement) dans un environnement micro-services et nous le comparerons avec ce que nous met à disposition Istio à T0 ?! 
 
 Ensuite, nous ouvrirons le capot afin de voir **comment** fonctionne Istio et comment nous pouvons potentiellement étendre son modèle #DoItYourSelf !
 
 ### Comment fausser l'interprétation de vos résultats avec des dataviz
 [Quickie]
 **12:45 - 13:00 @ Amphi B**
-Romain Sagean, 
+Romain Sagean
 
 Une Data Visualisation permet en un seul coup d’œil de véhiculer des résultats (d'analyse). Au travers de contre-exemples bien choisis, nous allons voir les nombreux pièges qui nuisent à la lisibilité et l'interprétation des données et comment choisir la bonne représentation pour faire passer vos idées.
 
@@ -741,7 +743,7 @@ A la sortie de cette présentation, vous aurez appris et saurez déjouer des tec
 ### Boostez le chargement de vos images !
 [Quickie]
 **12:45 - 13:00 @ Amphi D**
-Jean-Michael Legait, 
+Jean-Michael Legait
 
 Votre UX designer vous a fourni une superbe image de licorne que vous devez à présent intégrer dans votre site web. Mais, voilà elle fait 3 Mo !!! Bon, que faire ? Vous vous dites que vous êtes un Pro de Gimp alors que vous réussirez bien à réduire la taille. Vous arrivez finalement à avoir une image potable de 350 Ko, vous vous dites, c'est bon ça passe crème !!!
 
@@ -752,7 +754,7 @@ Et si vous veniez plutôt à ce talk où je vous donnerai 5 astuces efficaces po
 ### Dessine moi ... un DSL en Kotlin
 [Quickie]
 **13:05 - 13:20 @ Amphi B**
-Benoit PRIOUX, 
+Benoit PRIOUX
 
 Les DSL (Domain Specific Language) sont de plus en plus utilisés pour simplifier l'accès à une API (Gatling, Gradle). Pour cela, on utilise des langages comme Scala ou Groovy. Mais savez-vous que le dernier langage à la mode Kotlin le permet aussi ?
 Dans cette session, nous découvrirons les fonctionnalités de Kotlin qui permettent d'écrire un DSL facilement et sans magie !
@@ -760,7 +762,7 @@ Dans cette session, nous découvrirons les fonctionnalités de Kotlin qui permet
 ### Les risques de la revue de code
 [Quickie]
 **13:05 - 13:20 @ Amphi C**
-François Gelineau, 
+François Gelineau
 
 Je suis un développeur qui n'aime pas la revue de code, et je vais vous expliquer tout le mal que j'en pense. 
 Cette présentation courte et humoristique n'est faite que de mauvaise foi. C'est une démonstration par l'absurde des intérêts de la revue de code. En mettant les rieurs de mon côté, je vais les convaincre qu'ils peuvent ainsi améliorer les pratiques de développement et la collaboration au sein de leurs équipes.
@@ -768,7 +770,7 @@ Cette présentation courte et humoristique n'est faite que de mauvaise foi. C'es
 ### Comment... Or not comment? That is the question.
 [Quickie]
 **13:05 - 13:20 @ Amphi D**
-Pascal Le Merrer, 
+Pascal Le Merrer
 
 Comment... or not comment ? That is the question.
 
@@ -776,23 +778,19 @@ Quelles sont les bonnes pratiques en matière de commentaires de code ?
 Confrontez votre point de vue avec celui d'autres développeurs sur un sujet
 propice aux polémiques. Et repartez munis d'un support pour lancer la discussion dans votre équipe.
 
-### MVI : une architecture robuste et moderne pour vos applications mobiles
+### Infinispan, 10 ans et toutes ses dents
 [Conférence]
 **13:30 - 14:25 @ Amphi A**
-Simone Civetta, Arnaud Piroelle
+Katia Aresti
 
-Oui, on le sait : vous en avez assez des talks d'architecture mobile. On vous comprend, vous avez dû en voir des tonnes : utiles, superflus, simples, alambiqués, certains même imprononçables et là vous n’en pouvez plus.
+Infinispan est un cache distribué/datagrid open-source qui est né en Octobre 2008… Où sommes-nous 10 ans plus tard ? Mon constat après 2 ans comme développeuse dans l’équipe est le suivant: beaucoup des devs méconnaissent les capacités et usages des datagrids/caches distribués, et d’Infinispan en particulier.
 
-Mais donnez-nous une chance : cette fois-ci nous voulons vous présenter une architecture que nous apprécions véritablement : simple, robuste, facilement testable et tirant profit des langages modernes comme Kotlin et Swift - Model-View-Intention. Inspirée de Redux, mais adaptée aux applications mobiles, MVI se sert d'immutabilité, flux de données unidirectionnel et binding pour faciliter débogage et testing et améliorer donc votre productivité. Applicable à Android et iOS, elle permet aussi de simplifier les échanges entre les équipes de développeurs d'applications mobiles natives.
+En quoi Infinispan peut enrichir vos applications? Quels sont les usages, bonnes pratiques, et patterns à mettre en place pour répondre aux besoins des architectures modernes ? Est-ce Infinispan Reactive? Avec quels frameworks l’utiliser, et pourquoi ? Comment déployer tout cela sur des conteneurs et les orchestrer avec kubernetes/openshift ? Que pouvez vous attendre de la version 10 ?
 
-Nous vous présenterons les éléments clés de l'architecture, sa mise en place, ainsi que l'implémentation des cas d'usage les plus communs, issus d'applications que nous avons réellement développées.
-
-### Arrête ou ma mère va prodder
+### CI/CD FIVE MILLION WORKERS
 [Conférence]
 **13:30 - 14:25 @ Amphi B**
-Benjamin Coenen, null null, null null
-
-Avant c'était fastidieux et compliqué, maintenant même ta mère peut mettre en production.
+Benjamin Coenen, Richard Le Terrier, Steven Guiheux
 
 Venez découvrir comment toutes les applications du SI OVH sont construites, testées et déployées.
 Aujourd'hui après avoir fait un bilan de l'année 2018 nous avons comptabilisé 5,7 millions de jobs qui ont été lancé sur notre infrastructure sur une année.
@@ -806,7 +804,7 @@ Plate-forme CI/CD évolutive, scalable, multi-tenant, self-service. Définissez 
 ### Ceci n'est pas un Talk sur LitElement, c'est un cours
 [Conférence]
 **13:30 - 14:25 @ Amphi C**
-Philippe Charrière, 
+Philippe Charrière
 
 Plutôt que d'énumérer les fonctionnalités d'un n-ième framework JavaScript, je voudrais vous expliquer comment construire une application web de A à Z avec le successeur possible de Polymer: **LitElement**. Alors justement, LitElement ayant très "peu" de fonctionnalités (et tout le reste vous le faites avec du bon vieux JavaScript), il est tout à fait possible d'être opérationnel en 45 minutes. Donc ceci n'est pas un talk, c'est un mini-cours. Donc en sortant, vous saurez développer avec LitElement. Nous verrons:
 
@@ -826,25 +824,29 @@ Je suis en train d'en faire une version en ligne pour que les attendees puissent
 ### Scaling Java Application : Vers l’infini et au delà
 [Conférence]
 **13:30 - 14:25 @ Amphi D**
-Julien Roy, 
+Julien Roy
 
 Un moteur de calcul de prix en Java et scalable jusqu’a l’infini c’est possible ! Mais à notre grande surprise le chemin était pavé d’embuches.
 Dans cette présentation, je partage les différentes étapes, les problèmes rencontrés, les solutions ainsi que les outils qui nous ont permit d’atteindre cet objectif.
 On y parle JVM, Docker, AWS, Off-heap, Caching, Postgresql, Concurrence et autres réjouissances qui sortent un peu de notre quotidien de développeur.
 
-### Infinispan, 10 ans et toutes ses dents
+### Architecture Hexagonale Level 2 : Comment bien écrire ses tests.
 [Conférence]
 **14:35 - 15:30 @ Amphi A**
-Katia Aresti, 
+Julien Topçu, Jordan Nourry
 
-Infinispan est un cache distribué/datagrid open-source qui est né en Octobre 2008… Où sommes-nous 10 ans plus tard ? Mon constat après 2 ans comme développeuse dans l’équipe est le suivant: beaucoup des devs méconnaissent les capacités et usages des datagrids/caches distribués, et d’Infinispan en particulier.
+De plus en plus d’équipes adoptent l’architecture hexagonale comme structure de prédilection pour leurs applications métiers, mais peu d’entre elles savent réellement bien les tester. Et malheureusement lorsque l’on se plante sur ce point, la maintenance de notre architecture hexa devient un véritable calvaire!
 
-En quoi Infinispan peut enrichir vos applications? Quels sont les usages, bonnes pratiques, et patterns à mettre en place pour répondre aux besoins des architectures modernes ? Est-ce Infinispan Reactive? Avec quels frameworks l’utiliser, et pourquoi ? Comment déployer tout cela sur des conteneurs et les orchestrer avec kubernetes/openshift ? Que pouvez vous attendre de la version 10 ?
+Lors de ce talk, nous allons aborder les [5 niveaux de tests préconisés](https://martinfowler.com/articles/microservice-testing/#conclusion-summary) pour les microservices adaptés à l'architecture héxagonale. Et en prime comment avoir une documentation drivée par les tests.
+
+Venez découvrir à côté de quoi vous êtes peut-être passés dans le développement de vos tests!
+
+Ceci est une live coding session en Java/Kotlin SpringBoot.
 
 ### Les challenges à maintenir un projet open-source comme Gradle
 [Conférence]
 **14:35 - 15:30 @ Amphi B**
-Cédric Champeau, 
+Cédric Champeau
 
 Gradle est un outil de build open-source utilisé par des millions de développeurs. De plus, avec une nouvelle release mineure toutes les 6 semaines en moyenne, ce rythme rapide impose un certain nombre de challenges. Morceaux choisis :
 
@@ -866,7 +868,7 @@ Nous avons appris certaines leçons de la manière forte et sommes convaincus qu
 ### Comprendre les tours de passe-passe de Webpack
 [Conférence]
 **14:35 - 15:30 @ Amphi C**
-Cédric PATCHANE, 
+Cédric PATCHANE
 
 [Webpack](https://webpack.js.org) est aujourd'hui devenu un outil incontournable dans l'écosystème du développement d'applications Web. Il a su se démarquer de ses homologues en considérant que tout élément est un module qui peut être importé dans le build final d'un projet. Souple et agnostique, il se révèle également bien adapté pour évoluer dans l'environnement que nous connaissons aujourd'hui, avec une multitude de nouveaux frameworks et de languages Web.
 
@@ -877,7 +879,7 @@ Dans cette conférence, nous commencerons avec les toutes premières bases du fo
 ### Au secours, je dois gérer la production !
 [Conférence]
 **14:35 - 15:30 @ Amphi D**
-Morgan Leroi, 
+Morgan Leroi
 
 Développeurs, et si penser à la production dès le début de nos développements modifiait profondément notre manière de penser et concevoir nos applications ?
 
@@ -885,25 +887,25 @@ A la manière du TDD, penser production améliore nos applications et les prépa
 
 Je vous propose un retour d'expérience sur trois années durant lesquelles j'ai eu la chance d'intégrer une équipe où les développeurs gèrent eux-mêmes la production d'une application critique. Vous découvrirez comment ce mode de fonctionnement agit sur les choix techniques et notre manière de développer. Du développement aux préparations des releases en passant par le support utilisateur et le suivi quotidien de l'application, venez découvrir le "Production Driven Development" !
 
-### Du Blue-Green au Canary-Release avec Kubernetes
-[Conférence]
-**16:00 - 16:55 @ Amphi A**
-Mathieu Herbert, 
-
-Avec Kubernetes intégré à son infrastructure, le rolling update est la façon la plus simple de mettre à jour une application. Mais d'autres types de mise à jour sont également possibles : le Blue Green qui permet de passer à une nouvelle version avec juste un basculement de flux, mais également le Canary Release qui peut faire rediriger la charge de ses applications graduellement entre ancienne et nouvelle version dans une optique de 'Zero Downtime'.  Nous ferons ainsi, un tour des différents patterns de déploiement que l’on peut utiliser dans les cloud native applications et une démonstration de chacun des patterns sur Kubernetes et Traefik.
-
 ### Comprendre les GC à faible latence
 [Conférence]
-**16:00 - 16:55 @ Amphi B**
-jean-philippe BEMPEL, 
+**16:00 - 16:55 @ Amphi A**
+jean-philippe BEMPEL
 
 Depuis quelques années, le monde du GC sur la JVM évolue. Une nouvelle catégorie de GC émerge: Les GC à faible latence (low latency). Shenandoah est mis à disposition par Red Hat, Oracle a mis en open Source ZGC dans l'OpenJDK depuis le JDK 11 et Azul C4 est toujours là.
 Comme les GC "classiques" sont plutôt bien compris maintenant, cette présentation s'attardera sur les arcanes des plus récents. Nous allons expliquer le concurrent marking (tri-color marking), la Load Value Barrier de C4, les Brooks pointers de Shenandoah et le multi-mapping de ZGC. Enfin, comment choisir son GC à faible latence ?
 
+### Du Blue-Green au Canary-Release avec Kubernetes
+[Conférence]
+**16:00 - 16:55 @ Amphi B**
+Mathieu Herbert
+
+Avec Kubernetes intégré à son infrastructure, le rolling update est la façon la plus simple de mettre à jour une application. Mais d'autres types de mise à jour sont également possibles : le Blue Green qui permet de passer à une nouvelle version avec juste un basculement de flux, mais également le Canary Release qui peut faire rediriger la charge de ses applications graduellement entre ancienne et nouvelle version dans une optique de 'Zero Downtime'.  Nous ferons ainsi, un tour des différents patterns de déploiement que l’on peut utiliser dans les cloud native applications et une démonstration de chacun des patterns sur Kubernetes et Traefik.
+
 ### Sous le capot des conteneurs Linux
 [Conférence]
 **16:00 - 16:55 @ Amphi C**
-Alessio Coltellacci, 
+Alessio Coltellacci
 
 Aujourd’hui, beaucoup d’architectures cloud se reposent sur des technologies de conteneurs Linux (docker, lxc, rkt, …). Au delà des choix des technologies, qu’est-ce qu’un conteneur Linux en lui-même ? Peut-on le comparer à une VM light ? En créant soi-même un conteneur Linux, on comprend mieux cette technologie .
 
@@ -917,28 +919,17 @@ Contenu de la présentation:
 
 - Une digression sur leur évolution par rapport aux unikernels.
 
-### De Java vers Kotlin, la migration du héron !
+### Craftsmanship  & Shoot-them-up avec LibGDX en Java
 [Conférence]
 **16:00 - 16:55 @ Amphi D**
-Guillaume Lours, Audrey Neveu
+François-Xavier Robin
 
-Kotlin is the new cool! Ok mais votre patron n’acceptera jamais que vous réécriviez votre application Java en Kotlin n’est ce pas ?     Eh bien bonne nouvelle, la migration est possible et elle est même beaucoup plus simple que vous ne pourriez l’imaginer ! 
-
-Dans cette session nous vous expliquerons comment nous avons procédé pour migrer notre application existante en revenant sur les différentes étapes pour passer d’un langage à l’autre mais aussi les concepts de bases de Kotlin.
-
-Du build en passant par la génération automatique dans l’IDE et jusqu’aux tests, nous vous ferons un retour d'expérience complet de notre migration.
-
-### FastText, le proton pack des WordBusters
-[Tool in Action]
-**17:05 - 17:30 @ Amphi A**
-Fabrice Depaulis, 
-
-Analyse de sentiment, traduction automatique, reconnaissance vocale, ... : derrière tous ces buzz words, se cache une technique de deep learning appelée le "Word Embedding". On pourrait avoir l'impression de s'attaquer à *Gozer* en abordant ce sujet, mais heureusement, on peut aujourd'hui s'y atteler facilement en ayant recours au *proton pack* de la classification de document : *FastText*. Dans ce "tool in action", vous verrez pourquoi et comment recourir à cette librairie pour faire de la classification de texte, de manière étonnamment simple et efficace.
+ou comment coder un Shoot Them Up old school inspiré du best sellers Xenon 2 des Bitmap Brothers pour améliorer ses pratiques de développement et produire du code noté "A" dans SonarQube, Codefactor et Codacy. Si tu aimes en vrac : les design patterns, le CleanCoding, les CodingChallenge, les gros pixels bien baveux et les musiques soundchip sur YM-2149, cette présentation est aussi faite pour toi
 
 ### WebAuthn: Le renouveau de l'authentification
 [Tool in Action]
 **17:05 - 17:30 @ Amphi B**
-Thomas Blaisot, 
+Thomas Blaisot
 
 En 2018 on trouve encore des mots de passe sur des postits collés à l'écran et qu'on retrouve sur twitter, etc...
 
@@ -951,24 +942,17 @@ Basé sur le principe "ancien" de la cryptographie asymétrique, ces standards v
 
 Ce quikie est une présentation rapide du pourquoi et du comment l'implémenter, pour que chacun repense là façon dont il s'authentifie, mais aussi, en tant qu'acteur du web, comment il demande aux utilisateurs de s'authentifier.
 
-### Lighthouse: mesurer et améliorer votre performance web
+### FastText, le proton pack des WordBusters
 [Tool in Action]
 **17:05 - 17:30 @ Amphi C**
-Sara HARKOUSSE, 
+Fabrice Depaulis
 
-L'idée de ce talk est de présenter une série de bonnes pratiques / tips and tricks pour améliorer la performance d'un site web grâce à l'outil open source lighthouse sur plusieurs niveaux: 
-
-- performance 
-- progressive web app
-- accessibilité 
-- autres bonnes pratiques. 
-
-La présentation démarre par la génération d'un blog statique , le lancement d'un audit et un score de performance médiocre. Puis une série d'améliorations en live coding. Le talk se termine par un résumé des techniques utilisées et bien sûr un excellent score dans lighthouse.
+Analyse de sentiment, traduction automatique, reconnaissance vocale, ... : derrière tous ces buzz words, se cache une technique de deep learning appelée le "Word Embedding". On pourrait avoir l'impression de s'attaquer à *Gozer* en abordant ce sujet, mais heureusement, on peut aujourd'hui s'y atteler facilement en ayant recours au *proton pack* de la classification de document : *FastText*. Dans ce "tool in action", vous verrez pourquoi et comment recourir à cette librairie pour faire de la classification de texte, de manière étonnamment simple et efficace.
 
 ### Créez vos visualisations personnalisées dans Kibana avec Vega.js
 [Tool in Action]
 **17:05 - 17:30 @ Amphi D**
-Raphaël LUTA, 
+Raphaël LUTA
 
 Depuis sa version 6.2, Elastic Kibana permet d'utiliser la grammaire Vega ou Vega-lite pour définir des visualisations réutilisables et personnaliser vos tableaux de bord. 
 
